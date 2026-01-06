@@ -5,6 +5,9 @@ app_description = "starlink is a simple doctype to collect data about links in n
 app_email = "moussa@devops.azzrk"
 app_license = "mit"
 
+
+website_path_resolver = "starlink.utils.path_mapper"
+
 # Apps
 # ------------------
 
