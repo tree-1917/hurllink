@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-01-07 14:04:02.402551",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_4oyc",
+  "ip",
+  "useragent",
+  "link",
+  "column_break_rsrp",
+  "utm",
+  "referrer",
+  "section_break_iyjp",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_4oyc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "starlinkclick",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "ip",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IP",
+   "reqd": 1
+  },
+  {
+   "fieldname": "useragent",
+   "fieldtype": "Data",
+   "label": "UserAgent"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Data",
+   "label": "Link",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_rsrp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "utm",
+   "fieldtype": "Data",
+   "label": "UTM"
+  },
+  {
+   "fieldname": "referrer",
+   "fieldtype": "Data",
+   "label": "Referrer"
+  },
+  {
+   "fieldname": "section_break_iyjp",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-07 14:17:30.239702",
+ "modified_by": "Administrator",
+ "module": "starlink",
+ "name": "starlinkclick",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
