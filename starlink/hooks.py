@@ -1,13 +1,12 @@
 app_name = "starlink"
-app_title = "starlink "
+app_title = "Starlink"
 app_publisher = "gamalmoussa"
-app_description = "starlink is a simple doctype to collect data about links in nvim. "
+app_description = "Starlink is a simple doctype to collect data about links in Neovim."
 app_email = "moussa@devops.azzrk"
-app_license = "mit"
+app_license = "MIT"
 
 
 website_path_resolver = "starlink.utils.path_mapper"
-
 # Apps
 # ------------------
 
